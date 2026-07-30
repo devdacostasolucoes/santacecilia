@@ -1,5 +1,8 @@
 <?php
 
+use Inertia\Inertia;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,5 +15,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return Inertia::render('Home', [
+        'appName' => config('app.name'),
+    ]);
 });

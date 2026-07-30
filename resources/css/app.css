@@ -1,0 +1,43 @@
+html,
+body,
+#app {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    background: #f7f8fb;
+    color: #1f2933;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-page {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    padding: 32px;
+}
+
+.home-page__content {
+    max-width: 720px;
+}
+
+.home-page__eyebrow {
+    color: #0f766e;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin: 0 0 12px;
+    text-transform: uppercase;
+}
+
+.home-page h1 {
+    font-size: 48px;
+    line-height: 1.1;
+    margin: 0 0 16px;
+}
+
+.home-page p {
+    font-size: 18px;
+    line-height: 1.6;
+}
