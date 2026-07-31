@@ -70,9 +70,8 @@ export const Footer = () => {
               Contactos
             </h5>
             <ul className="space-y-2 mt-4">
-              <li className="text-sm">21 123 4567</li>
-              <li className="text-sm">912 345 678</li>
-              <li className="text-sm">geral@santacecilia.pt</li>
+              <li className="text-sm">943 671 347</li>
+              <li className="text-sm">geral@santacecilia.ao</li>
             </ul>
           </div>
         </div>
