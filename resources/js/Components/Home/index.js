@@ -1,0 +1,16 @@
+export { Hero } from './Hero';
+export { Statistics } from './Statistics';
+export { About } from './About';
+export { Specialties } from './Specialties';
+export { Services } from './Services';
+export { WhyChoose } from './WhyChoose';
+export { Training } from './Training';
+export { Doctors } from './Doctors';
+export { Technology } from './Technology';
+export { Testimonials } from './Testimonials';
+export { Gallery } from './Gallery';
+export { News } from './News';
+export { Partners } from './Partners';
+export { FAQ } from './FAQ';
+export { CTA } from './CTA';
+export { Contact } from './Contact';

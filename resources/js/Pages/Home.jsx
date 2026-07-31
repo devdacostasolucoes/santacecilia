@@ -1,19 +1,45 @@
 import React from 'react';
 import { Head } from '@inertiajs/react';
+import { PublicLayout } from '../Layouts';
+import {
+  Hero,
+  Statistics,
+  About,
+  Specialties,
+  Services,
+  WhyChoose,
+  Training,
+  Doctors,
+  Technology,
+  Testimonials,
+  Gallery,
+  News,
+  Partners,
+  FAQ,
+  CTA,
+  Contact,
+} from '../Components/Home';
 
-export default function Home({ appName }) {
-    return (
-        <main className="home-page">
-            <Head title="Inicio" />
-
-            <section className="home-page__content">
-                <p className="home-page__eyebrow">Laravel + Inertia + React</p>
-                <h1>{appName || 'Santa Cecilia'}</h1>
-                <p>
-                    O frontend React esta configurado com Inertia e pronto para
-                    receber as paginas da aplicacao.
-                </p>
-            </section>
-        </main>
-    );
+export default function Home() {
+  return (
+    <PublicLayout>
+      <Head title="Início | Clínica Santa Cecília" />
+      <Hero />
+      <Statistics />
+      <About />
+      <Specialties />
+      <Services />
+      <WhyChoose />
+      <Training />
+      <Doctors />
+      <Technology />
+      <Testimonials />
+      <Gallery />
+      <News />
+      <Partners />
+      <FAQ />
+      <CTA />
+      <Contact />
+    </PublicLayout>
+  );
 }
